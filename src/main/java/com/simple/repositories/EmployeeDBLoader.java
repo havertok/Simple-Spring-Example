@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.simple.entities.Employee;
 
+//Will call this before the rest allowing us to add the test user
 @Component
 public class EmployeeDBLoader implements CommandLineRunner {
 	
